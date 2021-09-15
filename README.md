@@ -1,6 +1,6 @@
 # flutter_pigeon
 
-The Flutter plugin which use to inject native method.
+A Flutter plugin to implementation native methods.
 
 ## Getting Started
 
