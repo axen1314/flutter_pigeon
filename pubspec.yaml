@@ -27,7 +27,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: org.axen.flutter.pigeon.flutter_pigeon
+        package: org.axen.flutter.pigeon
         pluginClass: FlutterPigeonPlugin
       ios:
         pluginClass: FlutterPigeonPlugin
