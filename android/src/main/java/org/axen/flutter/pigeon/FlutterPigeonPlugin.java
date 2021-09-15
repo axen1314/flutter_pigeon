@@ -17,7 +17,7 @@ public class FlutterPigeonPlugin implements FlutterPlugin, MethodChannel.MethodC
     public void onAttachedToEngine(@NonNull FlutterPlugin.FlutterPluginBinding binding) {
         pigeon = FlutterPigeon.getInstance();
         context = binding.getApplicationContext();
-        channel = new MethodChannel(binding.getBinaryMessenger(), "org.axen.flutter/flutter_dync");
+        channel = new MethodChannel(binding.getBinaryMessenger(), "org.axen.flutter/flutter_pigeon");
         channel.setMethodCallHandler(this);
     }
 
